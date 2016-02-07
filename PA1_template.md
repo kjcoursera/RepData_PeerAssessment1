@@ -1,7 +1,7 @@
 # Reproducible Research: Peer Assessment 1
 
 #### Loading the library function
-First, you need to load dplyr `library` functions 
+First, you need to load dplyr `library` function 
 
 
 ```r
@@ -253,7 +253,7 @@ wkday_avg <- FillIndata %>%
 wkday_avg$wktype <- as.factor(wkday_avg$wktype)
 ```
 
-plotting the panels  containing a time series plot 𝚕") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis)
+plotting the panels  containing a time series plot of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis)
 
 
 ```r

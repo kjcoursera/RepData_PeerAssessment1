@@ -66,7 +66,7 @@ img {
 
 <div id="loading-the-library-function" class="section level4">
 <h4>Loading the library function</h4>
-<p>First, you need to load dplyr <code>library</code> functions</p>
+<p>First, you need to load dplyr <code>library</code> function</p>
 <pre class="r"><code>library(dplyr)</code></pre>
 <pre><code>## Warning: package 'dplyr' was built under R version 3.2.2</code></pre>
 <pre><code>## 
@@ -211,7 +211,7 @@ FillIndata$wktype[FillIndata$wkday %in% c(&quot;Saturday&quot;,&quot;Sunday&quot
                 summarise(mean_rbi=mean(steps)) 
 
 wkday_avg$wktype &lt;- as.factor(wkday_avg$wktype)</code></pre>
-<p>plotting the panels containing a time series plot 𝚕“) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis)</p>
+<p>plotting the panels containing a time series plot of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis)</p>
 <pre class="r"><code>library(lattice)
 
 g4 &lt;- xyplot(mean_rbi~interval|wktype, wkday_avg,type='l',layout=c(1,2),xlab = &quot;interval&quot;,
